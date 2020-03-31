@@ -1,0 +1,232 @@
+
+@media only screen and (min-width: 600px) {
+
+
+.spider-full-body {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-row-gap: 50px;
+}
+
+.spider-full-body a > div {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: block;
+  object-fit:;
+  justify-content: center;
+  align-self: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32pt;
+  letter-spacing: .25vw;
+  color: white;
+}
+
+.spider-full-body {
+  background-repeat: no-repeat;
+}
+.spider-full-body p {
+  font-size: 20pt;
+}
+.comic-title {
+  font-style: italic;
+}
+
+#spider-row-1 {
+  background-image: url(images/original-full.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 15px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32pt;
+  letter-spacing: .25vw;
+}
+#spider-row-1 img {
+  width: 37%;
+  justify-content: center;
+}
+
+#spider-row-2 {
+  background-image: url(images/black-suit.jpg);
+  background-position: center -70vh;
+}
+#spider-row-2 img {
+  width: 38%;
+}
+
+#spider-row-3 {
+  background-image: url(images/ben-reilly.jpg);
+  background-position: center -65vh;
+}
+#spider-row-3 img {
+  width: 37%;
+}
+
+#spider-row-4 {
+  background-image: url(images/noir-full.jpg);
+}
+#spider-row-4 img {
+  width: 37%;
+}
+
+#spider-row-5 {
+  background-image: url(images/scarlet-full.jpg);
+  background-position: center -70vh;
+}
+#spider-row-5 img {
+  width: 37%;
+}
+
+#spider-row-6 {
+  background-image: url(images/bulletpoint.jpg);
+  background-position: center -60vh;
+}
+#spider-row-6 img {
+  width: 37%;
+}
+
+/* #spider-row-7-mobile {
+  display: none;
+} */
+#spider-row-7 {
+  background-image: url(images/morales.jpg);
+}
+#spider-row-7 img {
+  width: 35%;
+}
+
+#spider-row-8 {
+  background-image: url(images/spiderg-full.jpg);
+  background-position: center -60vh;
+}
+#spider-row-8 img {
+  width: 37%;
+  height: auto;
+}
+
+#spider-row-9 {
+  background-image: url(images/spider-girl-3.jpg);
+  background-position: center -22vh;
+}
+#spider-row-9 img {
+  width: 37%;
+}
+
+#spider-row-10 {
+  background-image: url(images/superior.jpg);
+  background-position: center -27vh
+}
+#spider-row-10 img {
+  width: 37%;
+}
+
+
+.spider-boxA {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vw;
+  height: 80vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spider-text-boxA {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 1vw;
+  /* width: 40vw; */
+  text-align: right;
+  background-color: black;
+  opacity: .75;
+  color: white;
+  padding-left: 15px;
+}
+
+.spider-boxB {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1vw;
+  height: 80vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spider-text-boxB {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding: 1vw;
+  /* width: 40vw; */
+  text-align: left;
+  background-color: black;
+  opacity: .75;
+  color: white;
+  padding-right: 15px;
+}
+
+
+
+.collapsible {
+  box-sizing: border-box;
+  display: inline;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3vw;
+  letter-spacing: .25vw;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  /* width: 40vw; */
+  border: solid black 2px;
+  text-align: center;
+  outline: none;
+  /* margin-bottom: -5px; */
+  /* align-self: center; */
+}
+
+.collapsible:hover {
+  background-color: black;
+  border: solid grey 2px;
+}
+
+.active {
+  box-sizing: border-box;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  /* text-align: right; */
+
+  /* border: solid grey 2px; */
+}
+
+.content {
+  display: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  opacity: 100;
+  width: 40vw;
+  justify-content:space-between;
+}
+
+.content img > div {
+  box-sizing: border-box;
+  display: flex;
+  object-fit: contain;
+  /* width: 20%; */
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+}
+
+/* Work Cited: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible */

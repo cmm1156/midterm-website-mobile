@@ -1,0 +1,275 @@
+
+@media only screen and (min-width : 600px){
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+  /* background-image: url(images/beige-paper.png); */
+  /* background-repeat: repeat; */
+  padding: 20px;
+  /* margin: 0px; */
+}
+
+#date, #website, .slogan {
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  transform: scale(1,.8);
+  font-size: 1vw;
+}
+
+.borderDiv {
+  border-top: solid black 4px;
+  border-bottom: solid black 4px;
+}
+
+.headerThreeColumn {
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+
+  text-align: center;
+  background-color: #de0000;
+  border-top: solid white 4px;
+  border-bottom: solid white 4px;
+  color: white;
+  font-family: 'Caladea', serif;
+  text-shadow: 11px 0px black;
+  font-size: 7vw;
+  align-items: center;
+
+}
+
+.headerThreeColumn img {
+  /* width: 100%; */
+  height: 100%
+
+}
+
+.headerThreeColumn p {
+  color: white;
+}
+
+#daily {
+  grid-column: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+#bugleIcon {
+  /* display: flex;
+  justify-content: center; */
+  background-color: black;
+  align-self: center;
+  grid-column: 2;
+}
+#bugle {
+  grid-column: 3;
+  text-align: left;
+  /* margin-left: 75px; */
+}
+
+.subHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#date {
+  justify-content: flex-start;
+}
+#website {
+  justify-content: flex-end;
+}
+
+
+#insideImage {
+  display: none;
+}
+.sameLineMobile {
+  display: none;
+}
+
+.headline {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 60% 40%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.headlineText {
+  display: grid;
+  grid-column: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 40% 30% 10%;
+  /* font-family: 'Source Code Pro', monospace; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+#headlineImage, .headlineText img {
+  grid-column: 2;
+  align-self: center;
+  width: 92%;
+  border: solid white 5px;
+  padding: 3px;
+  margin-top: 6px;
+}
+
+#line1, #line2, #line3 {
+  color: white;
+  transform: scale(1, 1.45);
+  font-weight: 900;
+}
+
+#line1 {
+  padding-top: 15px;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  font-size: 8.25vw;
+}
+#line2 {
+  padding-top: 5px;
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 14.2vw;
+}
+#line3 {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: 8.7vw;
+}
+#line4 {
+  margin-top: -10px;
+  padding-left: 10px;
+  line-height: 40px;
+  font-weight: 900;
+  grid-column: 1;
+  grid-row: 4;
+  font-size: 5.1vw;
+  text-decoration: none;
+  transform: scale(1, 1.5);
+  font-style: italic;
+  color: white;
+}
+
+#line4 a {
+  color: white;
+}
+#line4 a:link {
+  color: white;
+}
+#line4 a:visited {
+  color: white;
+}
+#line4 a:link, a:hover {
+  color: red;
+}
+#line4:hover {
+  animation: 0;
+  color:red;
+}
+
+@keyframes blinkingText {
+    /* 0%{     color: #fff;    }
+   49%{    color: #fff; } */
+   50%{color: transparent;}
+   /* 50%{    color: grey; } */
+   /* 99%{    color: transparent;  }
+   100%{   color: #fff;    } */
+  }
+
+  #line4 {
+    animation: blinkingText 3s infinite;
+  }
+
+
+
+h1 {
+  display: none;
+}
+
+.threeColumnNewspaper {
+  margin-top: 12px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  border: solid black 3px;
+  padding: 4px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* grid-column-gap: 15px; */
+
+  text-align: justify;
+}
+
+.threeColumnNewspaper h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  transform: scale(1,1);
+  line-height: auto;
+  text-align: left;
+  font-size: 28pt;
+  margin-top: -10px;
+}
+
+#h2 {
+  line
+}
+
+.threeColumnNewspaper p {
+  margin-top: 25px;
+  font-size: 14pt;
+  margin-top: -2px;
+  margin-bottom: -4px;
+}
+
+.firstColumn {
+  border-right: solid black 2px;
+  padding: 10px;
+}
+
+.secondColumn {
+  padding: 10px;
+  border-right: solid black 2px;
+}
+
+.thirdColumn {
+  padding: 10px;
+
+}
+
+.space {
+  color: white;
+}
+
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #de0000;
+  transform: scale(1,1.5);
+  font-size: 20pt;
+  padding: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+}
